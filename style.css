@@ -1,0 +1,143 @@
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{ font-size: 60px; font-weight:600; line-height:80px;}
+
+h2{font-size: 48px; margin-bottom: 30px;}
+
+h5{margin-bottom: 0px;}
+
+p{
+    font-size:18px;
+    color:#999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+li{
+    padding-right: 10px;
+}
+
+li a ion-icon{
+    font-size: 20px;
+    color:#fff;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+section{
+    padding: 120px 0;
+}
+
+#search, #inputSearch, #search-button{
+    padding: 5px;
+}
+
+#inputProvince
+{
+    padding: 0px;
+}
+
+
+
+.bg-light-grey{
+background-color:#f5f5f5;
+}
+
+.bg-dark { background-color: #f5f5f5 !important;}
+
+.top-margin-xs {margin-top:15px !important;}
+.top-margin-sm {margin-top:30px !important;}
+.top-margin-lg {margin-top:60px !important;}
+
+
+.btn-light{
+    background-color: #fff;
+    color:#1a1a1a;
+    border: 2px solid #fff;
+}
+
+.btn-dark{
+    background-color: #1a1a1a;
+    color:#fff;
+    border: 2px solid #1a1a1a;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    color:#fff;
+    border: 2px solid #fff;
+}
+
+.btn-transparent:hover{
+    color:#fff;
+}
+ 
+
+.full-width{
+    width: 100%;
+}
+
+.text-dark{
+    color:#1a1a1a;
+}
+
+.divider{
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.form-control
+{
+    font-size: 14px;
+    border: 1px solid #f5f5f5;
+    padding: 15px;
+    border-radius: 2px;
+    height: auto;
+}
+
+.form-control:focus
+{
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar{
+    background-color:#fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link{ color:#1a1a1a;
+ }
+
+.navbar-brand{ color: #1a1a1a; 1}
+
+.logo-brand
+{
+    min-width: 30px;
+    max-width: 50px;
+   
+}
+
+.navbar-toggler { font-size: 40px;}
+
+.navbar-toggler:focus { outline: none; }
+
+@media (max-width: 800px) { 
+    li a{ font-size: 12px;}
+    .marca{font-size: 12px;}
+   
+}
+
+@media (max-width: 575.98px) { 
+    li a{ font-size: 10px;}
+    .marca{font-size: 10px;}
+   
+}    
+
+
